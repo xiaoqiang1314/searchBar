@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF45B9A31DBBAAB8007F7629 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF45B9A21DBBAAB8007F7629 /* main.m */; };
+		EF45B9A61DBBAAB8007F7629 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF45B9A51DBBAAB8007F7629 /* AppDelegate.m */; };
+		EF45B9A91DBBAAB8007F7629 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF45B9A81DBBAAB8007F7629 /* ViewController.m */; };
+		EF45B9AC1DBBAAB8007F7629 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF45B9AA1DBBAAB8007F7629 /* Main.storyboard */; };
+		EF45B9AE1DBBAAB8007F7629 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF45B9AD1DBBAAB8007F7629 /* Assets.xcassets */; };
+		EF45B9B11DBBAAB8007F7629 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF45B9AF1DBBAAB8007F7629 /* LaunchScreen.storyboard */; };
+		EF45B9BC1DBBAAB8007F7629 /* searchBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF45B9BB1DBBAAB8007F7629 /* searchBarTests.m */; };
+		EF45B9C71DBBAAB8007F7629 /* searchBarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF45B9C61DBBAAB8007F7629 /* searchBarUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF45B9B81DBBAAB8007F7629 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF45B9961DBBAAB8007F7629 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF45B99D1DBBAAB8007F7629;
+			remoteInfo = searchBar;
+		};
+		EF45B9C31DBBAAB8007F7629 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF45B9961DBBAAB8007F7629 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF45B99D1DBBAAB8007F7629;
+			remoteInfo = searchBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF45B99E1DBBAAB8007F7629 /* searchBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = searchBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF45B9A21DBBAAB8007F7629 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF45B9A41DBBAAB8007F7629 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF45B9A51DBBAAB8007F7629 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF45B9A71DBBAAB8007F7629 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EF45B9A81DBBAAB8007F7629 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EF45B9AB1DBBAAB8007F7629 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF45B9AD1DBBAAB8007F7629 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF45B9B01DBBAAB8007F7629 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF45B9B21DBBAAB8007F7629 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF45B9B71DBBAAB8007F7629 /* searchBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = searchBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF45B9BB1DBBAAB8007F7629 /* searchBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = searchBarTests.m; sourceTree = "<group>"; };
+		EF45B9BD1DBBAAB8007F7629 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF45B9C21DBBAAB8007F7629 /* searchBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = searchBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF45B9C61DBBAAB8007F7629 /* searchBarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = searchBarUITests.m; sourceTree = "<group>"; };
+		EF45B9C81DBBAAB8007F7629 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF45B99B1DBBAAB8007F7629 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF45B9B41DBBAAB8007F7629 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF45B9BF1DBBAAB8007F7629 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF45B9951DBBAAB8007F7629 = {
+			isa = PBXGroup;
+			children = (
+				EF45B9A01DBBAAB8007F7629 /* searchBar */,
+				EF45B9BA1DBBAAB8007F7629 /* searchBarTests */,
+				EF45B9C51DBBAAB8007F7629 /* searchBarUITests */,
+				EF45B99F1DBBAAB8007F7629 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF45B99F1DBBAAB8007F7629 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF45B99E1DBBAAB8007F7629 /* searchBar.app */,
+				EF45B9B71DBBAAB8007F7629 /* searchBarTests.xctest */,
+				EF45B9C21DBBAAB8007F7629 /* searchBarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF45B9A01DBBAAB8007F7629 /* searchBar */ = {
+			isa = PBXGroup;
+			children = (
+				EF45B9A41DBBAAB8007F7629 /* AppDelegate.h */,
+				EF45B9A51DBBAAB8007F7629 /* AppDelegate.m */,
+				EF45B9A71DBBAAB8007F7629 /* ViewController.h */,
+				EF45B9A81DBBAAB8007F7629 /* ViewController.m */,
+				EF45B9AA1DBBAAB8007F7629 /* Main.storyboard */,
+				EF45B9AD1DBBAAB8007F7629 /* Assets.xcassets */,
+				EF45B9AF1DBBAAB8007F7629 /* LaunchScreen.storyboard */,
+				EF45B9B21DBBAAB8007F7629 /* Info.plist */,
+				EF45B9A11DBBAAB8007F7629 /* Supporting Files */,
+			);
+			path = searchBar;
+			sourceTree = "<group>";
+		};
+		EF45B9A11DBBAAB8007F7629 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF45B9A21DBBAAB8007F7629 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF45B9BA1DBBAAB8007F7629 /* searchBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF45B9BB1DBBAAB8007F7629 /* searchBarTests.m */,
+				EF45B9BD1DBBAAB8007F7629 /* Info.plist */,
+			);
+			path = searchBarTests;
+			sourceTree = "<group>";
+		};
+		EF45B9C51DBBAAB8007F7629 /* searchBarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF45B9C61DBBAAB8007F7629 /* searchBarUITests.m */,
+				EF45B9C81DBBAAB8007F7629 /* Info.plist */,
+			);
+			path = searchBarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF45B99D1DBBAAB8007F7629 /* searchBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF45B9CB1DBBAAB8007F7629 /* Build configuration list for PBXNativeTarget "searchBar" */;
+			buildPhases = (
+				EF45B99A1DBBAAB8007F7629 /* Sources */,
+				EF45B99B1DBBAAB8007F7629 /* Frameworks */,
+				EF45B99C1DBBAAB8007F7629 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = searchBar;
+			productName = searchBar;
+			productReference = EF45B99E1DBBAAB8007F7629 /* searchBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF45B9B61DBBAAB8007F7629 /* searchBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF45B9CE1DBBAAB8007F7629 /* Build configuration list for PBXNativeTarget "searchBarTests" */;
+			buildPhases = (
+				EF45B9B31DBBAAB8007F7629 /* Sources */,
+				EF45B9B41DBBAAB8007F7629 /* Frameworks */,
+				EF45B9B51DBBAAB8007F7629 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF45B9B91DBBAAB8007F7629 /* PBXTargetDependency */,
+			);
+			name = searchBarTests;
+			productName = searchBarTests;
+			productReference = EF45B9B71DBBAAB8007F7629 /* searchBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF45B9C11DBBAAB8007F7629 /* searchBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF45B9D11DBBAAB8007F7629 /* Build configuration list for PBXNativeTarget "searchBarUITests" */;
+			buildPhases = (
+				EF45B9BE1DBBAAB8007F7629 /* Sources */,
+				EF45B9BF1DBBAAB8007F7629 /* Frameworks */,
+				EF45B9C01DBBAAB8007F7629 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF45B9C41DBBAAB8007F7629 /* PBXTargetDependency */,
+			);
+			name = searchBarUITests;
+			productName = searchBarUITests;
+			productReference = EF45B9C21DBBAAB8007F7629 /* searchBarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF45B9961DBBAAB8007F7629 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = strong;
+				TargetAttributes = {
+					EF45B99D1DBBAAB8007F7629 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = Q732LNC2S7;
+					};
+					EF45B9B61DBBAAB8007F7629 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = Q732LNC2S7;
+						TestTargetID = EF45B99D1DBBAAB8007F7629;
+					};
+					EF45B9C11DBBAAB8007F7629 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = Q732LNC2S7;
+						TestTargetID = EF45B99D1DBBAAB8007F7629;
+					};
+				};
+			};
+			buildConfigurationList = EF45B9991DBBAAB8007F7629 /* Build configuration list for PBXProject "searchBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF45B9951DBBAAB8007F7629;
+			productRefGroup = EF45B99F1DBBAAB8007F7629 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF45B99D1DBBAAB8007F7629 /* searchBar */,
+				EF45B9B61DBBAAB8007F7629 /* searchBarTests */,
+				EF45B9C11DBBAAB8007F7629 /* searchBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF45B99C1DBBAAB8007F7629 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF45B9B11DBBAAB8007F7629 /* LaunchScreen.storyboard in Resources */,
+				EF45B9AE1DBBAAB8007F7629 /* Assets.xcassets in Resources */,
+				EF45B9AC1DBBAAB8007F7629 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF45B9B51DBBAAB8007F7629 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF45B9C01DBBAAB8007F7629 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF45B99A1DBBAAB8007F7629 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF45B9A91DBBAAB8007F7629 /* ViewController.m in Sources */,
+				EF45B9A61DBBAAB8007F7629 /* AppDelegate.m in Sources */,
+				EF45B9A31DBBAAB8007F7629 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF45B9B31DBBAAB8007F7629 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF45B9BC1DBBAAB8007F7629 /* searchBarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF45B9BE1DBBAAB8007F7629 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF45B9C71DBBAAB8007F7629 /* searchBarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF45B9B91DBBAAB8007F7629 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF45B99D1DBBAAB8007F7629 /* searchBar */;
+			targetProxy = EF45B9B81DBBAAB8007F7629 /* PBXContainerItemProxy */;
+		};
+		EF45B9C41DBBAAB8007F7629 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF45B99D1DBBAAB8007F7629 /* searchBar */;
+			targetProxy = EF45B9C31DBBAAB8007F7629 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF45B9AA1DBBAAB8007F7629 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF45B9AB1DBBAAB8007F7629 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF45B9AF1DBBAAB8007F7629 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF45B9B01DBBAAB8007F7629 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF45B9C91DBBAAB8007F7629 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF45B9CA1DBBAAB8007F7629 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF45B9CC1DBBAAB8007F7629 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = searchBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.gomro.searchBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF45B9CD1DBBAAB8007F7629 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = searchBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.gomro.searchBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF45B9CF1DBBAAB8007F7629 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = searchBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.gomro.searchBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/searchBar.app/searchBar";
+			};
+			name = Debug;
+		};
+		EF45B9D01DBBAAB8007F7629 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = searchBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.gomro.searchBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/searchBar.app/searchBar";
+			};
+			name = Release;
+		};
+		EF45B9D21DBBAAB8007F7629 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = searchBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.gomro.searchBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = searchBar;
+			};
+			name = Debug;
+		};
+		EF45B9D31DBBAAB8007F7629 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = searchBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.gomro.searchBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = searchBar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF45B9991DBBAAB8007F7629 /* Build configuration list for PBXProject "searchBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF45B9C91DBBAAB8007F7629 /* Debug */,
+				EF45B9CA1DBBAAB8007F7629 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF45B9CB1DBBAAB8007F7629 /* Build configuration list for PBXNativeTarget "searchBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF45B9CC1DBBAAB8007F7629 /* Debug */,
+				EF45B9CD1DBBAAB8007F7629 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF45B9CE1DBBAAB8007F7629 /* Build configuration list for PBXNativeTarget "searchBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF45B9CF1DBBAAB8007F7629 /* Debug */,
+				EF45B9D01DBBAAB8007F7629 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF45B9D11DBBAAB8007F7629 /* Build configuration list for PBXNativeTarget "searchBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF45B9D21DBBAAB8007F7629 /* Debug */,
+				EF45B9D31DBBAAB8007F7629 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF45B9961DBBAAB8007F7629 /* Project object */;
+}
